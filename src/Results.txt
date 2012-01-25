@@ -1,0 +1,766 @@
+
+############################################################################################
+########################################## TOTAL ###########################################
+
+Start time: 09:41:45 20/01/2012
+Passed Time: 49.901055
+Failed Time: 72.365852
+Total Time: 122.266907
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (143): 
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 20804, tid: 20810  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 1582, tid: 1609  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 7995, tid: 8002  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  /system/bin/syslink_trace_daemon.out  ( pid: 188, tid: 191  >>> /system/bin/syslink_trace_daemon.out <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00012 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00020 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00021 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00022 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00020 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00002 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00010 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00020 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00009 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00022 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00010 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (18): 
+  => D:\Panic_lab_results\p5\report.20120120_094145\logs\00025\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1331.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120120_094145\logs\00026\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120120_094145
+
+Passed Time: 3.695291
+Failed Time: 1.313439
+Total Time: 5.008730
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (2): 
+  => D:\Panic_lab_results\p5\report.20120120_094145\logs\00025\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1331.txt -  ( )
+  => D:\Panic_lab_results\p5\report.20120120_094145\logs\00026\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120120_184003
+
+Passed Time: 2.815411
+Failed Time: 0.738666
+Total Time: 3.554078
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (7): 
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 20804, tid: 20810  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 1582, tid: 1609  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  UNKNOWN  ( pid: 7995, tid: 8002  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001 -  /system/bin/syslink_trace_daemon.out  ( pid: 188, tid: 191  >>> /system/bin/syslink_trace_daemon.out <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00012 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00020 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00021 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120120_184003\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120120_221321
+
+Passed Time: 2.522466
+Failed Time: 0.954245
+Total Time: 3.476711
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (4): 
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00022 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120120_221321\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_014200
+
+Passed Time: 2.741260
+Failed Time: 0.758062
+Total Time: 3.499321
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (5): 
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00020 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_014200\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_051200
+
+Passed Time: 2.262543
+Failed Time: 0.862916
+Total Time: 3.125459
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (8): 
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00002 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00010 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00020 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_051200\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_081935
+
+Passed Time: 5.604268
+Failed Time: 0.659211
+Total Time: 6.263479
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (9): 
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00009 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_081935\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_143529
+
+Passed Time: 2.819474
+Failed Time: 0.775621
+Total Time: 3.595095
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (9): 
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_143529\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_181114
+
+Passed Time: 2.815360
+Failed Time: 0.795283
+Total Time: 3.610642
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00022 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_181114\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120121_214755
+
+Passed Time: 2.933116
+Failed Time: 0.767741
+Total Time: 3.700857
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120121_214755\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_013003
+
+Passed Time: 2.750556
+Failed Time: 0.815517
+Total Time: 3.566073
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_013003\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_050403
+
+Passed Time: 2.921202
+Failed Time: 0.806141
+Total Time: 3.727343
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_050403\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_084744
+
+Passed Time: 2.973442
+Failed Time: 0.817595
+Total Time: 3.791037
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (11): 
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  UNKNOWN  ( pid: 10735, tid: 10742  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00010 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_084744\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_123514
+
+Passed Time: 2.914443
+Failed Time: 0.869785
+Total Time: 3.784229
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_123514\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_162223
+
+Passed Time: 2.973580
+Failed Time: 0.819519
+Total Time: 3.793099
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_162223\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120122_201001
+
+Passed Time: 2.996016
+Failed Time: 0.903696
+Total Time: 3.899711
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120122_201001\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_000403
+
+Passed Time: 2.640820
+Failed Time: 1.330343
+Total Time: 3.971163
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120123_000403\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_040221
+
+Passed Time: 0.000000
+Failed Time: 3.896178
+Total Time: 3.896178
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_075616
+
+Passed Time: 0.000000
+Failed Time: 3.888761
+Total Time: 3.888761
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_114938
+
+Passed Time: 0.000000
+Failed Time: 3.888940
+Total Time: 3.888940
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_154302
+
+Passed Time: 0.000000
+Failed Time: 3.884517
+Total Time: 3.884517
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_193609
+
+Passed Time: 0.000000
+Failed Time: 3.872886
+Total Time: 3.872886
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120123_232833
+
+Passed Time: 0.000000
+Failed Time: 3.873320
+Total Time: 3.873320
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_032058
+
+Passed Time: 0.000000
+Failed Time: 3.873537
+Total Time: 3.873537
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_071325
+
+Passed Time: 0.000000
+Failed Time: 3.872442
+Total Time: 3.872442
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_110547
+
+Passed Time: 0.000000
+Failed Time: 3.872161
+Total Time: 3.872161
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_145809
+
+Passed Time: 0.000000
+Failed Time: 3.872982
+Total Time: 3.872982
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_185033
+
+Passed Time: 0.000000
+Failed Time: 3.872057
+Total Time: 3.872057
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120124_224256
+
+Passed Time: 0.000000
+Failed Time: 3.872526
+Total Time: 3.872526
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120125_023519
+
+Passed Time: 0.000000
+Failed Time: 3.872580
+Total Time: 3.872580
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120125_062742
+
+Passed Time: 0.000000
+Failed Time: 3.872071
+Total Time: 3.872071
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120125_102004
+
+Passed Time: 0.000000
+Failed Time: 3.872904
+Total Time: 3.872904
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120125_141229
+
+Passed Time: 0.000000
+Failed Time: 0.000000
+Total Time: 0.000000
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (0): 
+Panics (0): 
+
+############################################################################################
+
+D:\Panic_lab_results\p5\report.20120125_151031
+
+Passed Time: 1.521808
+Failed Time: 0.220209
+Total Time: 1.742017
+
+ANRs (0): 
+ForceCloses (0): 
+Tombstones (10): 
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  UNKNOWN  ( pid: 6605, tid: 6612  >>> UNKNOWN <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 30535, tid: 30541  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 6756, tid: 6769  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 30687, tid: 30707  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 27586, tid: 27592  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 20856, tid: 20862  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 13421, tid: 13429  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 13010, tid: 13017  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  app_process  ( pid: 29293, tid: 29338  >>> app_process <<<)
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001 -  com.google.android.music:ui  ( pid: 13850, tid: 13850  >>> com.google.android.music:ui <<<)
+Panics (1): 
+  => D:\Panic_lab_results\p5\report.20120125_151031\logs\00001\devicelogs\data\panicreports\qril_ipcerrors.log.20120120_1332.txt -  ( )
+
