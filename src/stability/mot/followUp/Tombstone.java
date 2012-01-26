@@ -9,6 +9,7 @@ public class Tombstone {
 	private String pid;
 	private String tid;
 	private String line;
+	private String device;
 	
 	public String getDirectory() {
 		return directory;
@@ -52,6 +53,20 @@ public class Tombstone {
 	public void setLine(String line) {
 		this.line = line;
 	}
+	public String getDevice() {
+		return device;
+	}
+	public void setDevice(String device) {
+		this.device = device;
+	}
+	@Override
+	public String toString() {
+		return "Tombstone [directory=" + directory + ", reportName="
+				+ reportName + ", testCase=" + testCase + ", tipo=" + tipo
+				+ ", pid=" + pid + ", tid=" + tid + ", line=" + line
+				+ ", device=" + device + "]";
+	}
+	
 	
 	
 }
